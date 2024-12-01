@@ -1,3 +1,16 @@
+// buildscript {
+//     repositories {
+//         google() // Ensures Google dependencies are available
+//         mavenCentral() // Includes Maven Central repository
+//     }
+//     dependencies {
+//         // Add the Google Services plugin
+//         classpath 'com.google.gms:google-services:4.3.15' // Use the latest version
+//         // Add the Android Gradle Plugin if missing
+//         classpath 'com.android.tools.build:gradle:8.0.2' // Use the version that matches your project setup
+//     }
+// }
+
 allprojects {
     repositories {
         google()
